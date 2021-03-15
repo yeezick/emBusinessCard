@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
     background-color: #896279;
   }
@@ -52,11 +55,11 @@ body {
     font-family: "georgia", 'lucida console';
     color: #ffeedb;
   }
-  /* list specific */
+  /* list specific 
   li {
     margin-left: 70px;
     margin-right: 70px;
-  }
+  } */
   /* section color */
 section{
   border: 5px solid #d4aa7d;
@@ -68,7 +71,15 @@ section{
   background-color: #989fce;
 }
 /*hr class */
-
+.flex-box{
+  display: flex;
+  margin-left: 20% !important;
+margin-right: 20% !important;
+}
+.resize{
+  margin-left:45%;
+  margin-right: 45%;
+}
   hr {
     width: 15px;
     height: 15px;
